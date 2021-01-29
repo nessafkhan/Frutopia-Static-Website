@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+.Header{
+    margin: -80px -137px;
+    display:flex;
+    width: 100%;
+    align-items: center;
+    height: 90px;
+    background-color: bisque;
+    position: fixed;
+}
+ul{
+    flex: 1;
+    text-align: right;
+    margin-left: 366px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1px;
+    position: relative;
+}
+ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 10px;
+    background: #f14a60;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40px;
+    transition: 0.5s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.navBar-Icons img{
+    margin-left: 40px;
+    height: 25px;
+    cursor: pointer;
+}
+.navBar-Icons{
+    margin-left: 20px;
+}
+#banner{
+    margin-top: 80px;
+    display: flex;
+}
+.left-coloumn,.right-coloumn{
+    flex-basis: 50%;
+}
+.right-coloumn img{
+    width: 100%;
+}
+.Search-box{
+    width: 45%;
+    display: flex;
+    padding-bottom: 1px solid #dddddd;
+    margin: 35px 0 30px;
+}
+.Search-box img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.Content h1{
+    font-size: 60px;
+}
+.Content h3{
+    margin-top: -25px;
+    font-size: 18px;
+    color: grey;
+}
+.Content span{
+    color:#f14a60 ;
+}
+p{
+    color: rgb(129, 126, 126);
+}
+.Lrn-mr{
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #e0132e;
+    padding: 12px;
+    width: 125px;
+    border: none;
+    color: #ffff;
+    margin-top: 50px;
+}
+.Lrn-mr:hover{
+    background: #f14a60;
+}
+.Watchvideo{
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #ffff;
+    padding: 10px;
+    width: 125px;
+    color: #f14a60;
+    margin-top: 50px;
+    margin-left: 25px;
+    border:2px solid #f14a60;
+}
+.Watchvideo:hover{
+    border-color:antiquewhite;
+}
+#Socialmedia-icons{
+    padding: 60px;
+    margin-top: 30px;
+}
+.contact{
+    margin-left: 4em;
+    color: #e0132e;
+    font-weight: bold;
+}
+.twt{
+    width: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.pin{
+    width: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.ig{
+    width: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.fb{
+    width: 13px;
+    margin-left: 30px;
+    cursor: pointer;
+}
